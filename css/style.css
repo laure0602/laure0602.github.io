@@ -1,0 +1,276 @@
+h1, h2, h3, h4, h5, h6, p, li, small {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+    background-color: #69A5FC;
+    color: white;
+}
+
+.navbar a, .navbar i {
+    color: white;
+}
+
+.experiences-lieu {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+#banner {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    padding: 80px 0 20px 0;
+    color: rgb(247, 248, 249);
+}
+
+.infos {
+    padding: 20px 0 0 0;
+    background-color: #69A5FC;
+    color: rgb(247, 248, 249);
+}
+
+.colonne-infos {
+    padding-bottom: 20px;
+}
+
+.parcours {
+    text-align: center;
+    background-color: rgb(247, 248, 249);
+    color: #69A5FC;
+    padding: 60px 0 60px 0;
+}
+
+.experiences {
+    text-align: center;
+    padding: 60px 0 60px 0;
+    background-color: #69A5FC;
+    color: rgb(247, 248, 249);
+}
+
+.container-img {
+    width: 25%;
+    margin: auto;
+}
+
+@media (max-width: 767px) {
+    .container-img {
+        width: 40% !important;
+    }
+}
+
+.container-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container-text a {
+    color: rgb(247, 248, 249);
+}
+
+.container-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid rgb(247, 248, 249);
+}
+
+.colonne-infos {
+    text-align: center;
+    font-size: 18px;
+}
+
+.infos .fa-envelope, .infos .fa-linkedin-square, .infos .fa-phone, .infos .fa-map-marker {
+    font-size: 25px;
+}
+
+.infos p {
+    margin-bottom: 0;
+}
+
+.infos a {
+    color: rgb(247, 248, 249);
+}
+
+.parcours h1, .experiences h1 {
+    margin-bottom: 20px;
+}
+
+.parcours img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.parcours p {
+    margin-bottom: 0;
+}
+
+.container-text-parcours {
+    margin-top: 10px;
+}
+
+.container-text-parcours h2 {
+    font-size: 20px;
+}
+
+.fa-angle-right {
+    font-size: 100px;
+}
+
+@media (max-width: 991px) {
+    .container-img-parcours {
+        width: 25%;
+        margin: auto;
+    }
+}
+
+.experiences-dates {
+    width: 15%;
+}
+
+.experiences-img {
+    width: 20%;
+}
+
+.experiences-details {
+    width: 50%;
+    text-align: justify;
+}
+
+.experiences-lieu {
+    width: 5%;
+}
+
+.experiences-container-img-unilever {
+    width: 50%;
+    margin: auto;
+}
+
+.experiences-container-img-solinest {
+    width: 70%;
+    margin: auto;
+}
+
+.experiences-container-img-parisettes {
+    width: 50%;
+    margin: auto;
+}
+
+.experiences-container-img-bnp {
+    width: 70%;
+    margin: auto;
+}
+
+.experiences-container-img img {
+    width: 100%;
+}
+
+.experiences a {
+    color: #69A5FC;
+}
+
+.main-container {
+    display: flex;
+    background-color: rgb(247, 248, 249)
+}
+
+.results-container {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.competences {
+    text-align: center;
+    background-color: rgb(247, 248, 249);
+    color: #69A5FC;
+    padding: 60px 0 60px 0;
+}
+
+.card-competences {
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0px 0px 0px;
+    padding: 50px 0px;
+    text-align: center;
+    color: black;
+    flex: 0 0 50%;
+}
+
+.competences-contenu {
+    background-color: rgb(247, 248, 249);
+    opacity: 0.7;
+}
+
+.competences h2 {
+    font-weight: 300 !important;
+    font-size: 30px;
+}
+
+.competences h6 {
+    font-weight: 300 !important;
+    font-size: 20px;
+}
+
+.interet {
+    text-align: center;
+    background-color: rgb(247, 248, 249);
+    color: #69A5FC;
+    padding: 60px 0 60px 0;
+}
+
+.card-interet {
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0px 20px 0px;
+    padding: 50px 0px;
+    text-align: center;
+    color: black;
+    flex: 0 0 25%;
+}
+
+.interet-contenu {
+    background-color: rgb(247, 248, 249);
+    opacity: 0.7;
+}
+
+.interet h2 {
+    font-weight: 300 !important;
+    font-size: 30px;
+}
+
+.interet h6 {
+    font-weight: 300 !important;
+    font-size: 20px;
+}
+
+@media(max-width: 992px) {
+    .card-interet {
+        flex: 0 0 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .card-interet {
+        flex: 0 0 50%;
+    }
+}
+
+#footer {
+    padding: 20px 0 5px 0;
+    background-color: #69A5FC;
+    color: rgb(247, 248, 249);
+    text-align: center;
+}
+
+.coordonees {
+    background-color: #69A5FC;
+    color: rgb(247, 248, 249);
+}
+
+.coordonees a {
+    color: rgb(247, 248, 249);
+    font-size: 20px;
+    text-decoration: none;
+}
